@@ -1,0 +1,68 @@
+@import url("https://googleapis.com");
+
+* { 
+    font-family: Arial, Helvetica, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body { 
+    background-color: #333333; 
+    color: #F2F2F2; 
+}
+
+header h1 { 
+    font-family: 'Merriweather', serif; 
+    display: flex; 
+    justify-content: center;
+    background-color: #333333;
+    list-style: none;
+}
+
+ul { 
+    list-style-type: none; 
+    display: flex; 
+    justify-content: center;
+}
+
+ul li a { 
+    text-decoration: none; 
+    color: #F2F2F2; 
+}
+
+ul li a:hover { 
+    color: cornflowerblue; 
+}
+
+.container {
+
+}
+
+.filipinas { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); 
+    gap: 15px;
+    margin: 10px;
+}
+
+.card-grid img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-color: chartreuse;
+    border: 1px;
+    border-radius: 5px;
+}
+
+.card-grid {
+    margin-left: 20%;
+}
+
+footer { 
+    display: flex; 
+    justify-content: center; 
+    background-color: cornflowerblue; 
+    color: white;
+    padding: 15px; 
+}
