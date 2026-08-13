@@ -43,8 +43,8 @@ header h1 {
 }
 
 .bar ul li a:hover {
-    color: red;
-    border-bottom: 3px solid red;
+    color: blueviolet;
+    border-bottom: 3px solid blueviolet;
 }
 
 .container {
@@ -56,8 +56,6 @@ header h1 {
 section {
     margin: 40px 0;
 }
-
-
 
 section h2 {
     margin-bottom: 20px;
@@ -90,6 +88,7 @@ section h2 {
 .card-grid {
     display: flex;
     justify-content: center;
+    transition: transform 1s ease, box-shadow 1s ease;
 }
 
 .card-grid img {
@@ -97,6 +96,13 @@ section h2 {
     height: 180px;
     object-fit: cover;
     border-radius: 10px;
+
+}
+
+.card-grid :hover {
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15); 
+    transform: translateY(-5px);
+    transition: 1s;
 }
 
 .menu {
@@ -106,7 +112,7 @@ section h2 {
 footer {
     display: flex;
     justify-content: center;
-    background-color: cornflowerblue;
+    background-color: blueviolet;
     color: white;
     padding: 15px;
     margin-top: 40px;
