@@ -57,6 +57,8 @@ section {
     margin: 40px 0;
 }
 
+
+
 section h2 {
     margin-bottom: 20px;
     font-size: 30px;
@@ -64,6 +66,7 @@ section h2 {
 }
 
 .filipinas {
+    margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
@@ -74,6 +77,7 @@ section h2 {
 }
 
 .cidade {
+    margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
