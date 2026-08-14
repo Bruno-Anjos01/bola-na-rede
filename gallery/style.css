@@ -10,7 +10,7 @@
 body {
     background-color: #333333;
     color: #F2F2F2;
-    margin-top: 200px;
+    margin-top: 190px;
 }
 
 header {
@@ -88,7 +88,7 @@ section h2 {
 .card-grid {
     display: flex;
     justify-content: center;
-    transition: transform 1s ease, box-shadow 1s ease;
+    border-radius: 10px;
 }
 
 .card-grid img {
@@ -96,13 +96,6 @@ section h2 {
     height: 180px;
     object-fit: cover;
     border-radius: 10px;
-
-}
-
-.card-grid :hover {
-    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15); 
-    transform: translateY(-5px);
-    transition: 1s;
 }
 
 .menu {
