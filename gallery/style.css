@@ -10,14 +10,13 @@
 body {
     background-color: #333333;
     color: #F2F2F2;
-    margin-top: 190px;
+    margin-top: 160px;
 }
 
 header {
     padding: 20px;
     position: fixed;
     width: 100%;
-    background-color: rgba(45, 41, 41, 0.8);
     padding: 20px;
     top: 0;
 }
