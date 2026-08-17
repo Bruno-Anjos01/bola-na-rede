@@ -29,7 +29,7 @@ header {
 
 header h1 {
     color: #C4170C;
-    font-size: 2.2rem;
+    font-size: 40px;
     font-weight: 800;
 }
 
@@ -44,6 +44,7 @@ ul li a {
     text-decoration: none;
     color: #666666;
     font-weight: 700;
+    text-transform: uppercase;
     text-transform: uppercase;
 }
 
@@ -75,6 +76,14 @@ section h2 {
 
 section p {
     text-align: justify;
+}
+
+#fifa a {
+    justify-content: center;
+    display: flex;
+    list-style: none;
+    color: #222222;
+    font-size: 20px;
 }
 
 .campeonatos-grid {
